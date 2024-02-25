@@ -79,7 +79,7 @@ public class TV {
 		
 	}
 	public void canalDown() {
-		if (this.estado && this.canal>0) {
+		if (this.estado && this.canal>2) {
 			this.canal--;
 		}
 	}
