@@ -18,7 +18,7 @@ public class TV {
 	public Marca getMarca() {
 		return this.marca;
 	}
-	public void serMarca(Marca marca) {
+	public void setMarca(Marca marca) {
 		this.marca=marca;
 	}
 	
@@ -27,7 +27,7 @@ public class TV {
 		return this.canal;
 	}
 	public void setCanal(int canal) {
-		if (this.estado && this.canal>0 && this.canal<120) {
+		if (this.estado && canal>0 && canal<120) {
 			this.canal=canal;
 		}
 	}
@@ -43,7 +43,7 @@ public class TV {
 		return this.volumen;
 	}
 	public void setVolumen(int volumen) {
-		if (this.estado && this.volumen<7 && this.volumen>0) {
+		if (this.estado && volumen<7 && volumen>0) {
 			this.volumen=volumen;
 		}
 	}
