@@ -28,7 +28,7 @@ public class Control {
 		this.tv.setCanal(canal);
 	}
 	public void setVolumen(int volumen) {
-		this.setVolumen(volumen);
+		this.tv.setVolumen(volumen);
 	}
 	
 	public void enlazar(TV tv) {
